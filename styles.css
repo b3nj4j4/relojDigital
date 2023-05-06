@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, blue, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #reloj {
+    font-size: 48px;
+    text-align: center;
+    background-color: inherit;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Resto de los estilos media queries */
+  
+      
+  /* Estilos para iPad */
+  @media screen and (max-width: 1024px) {
+    #reloj {
+      font-size: 42px;
+    }
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+    #reloj {
+      font-size: 36px;
+    }
+  }
+  
+  /* Estilos para computadoras de escritorio */
+  @media screen and (min-width: 1025px) {
+    #reloj {
+      font-size: 48px;
+    }
+  }
+  
